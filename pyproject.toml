@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dla-msmka"
+version = "0.1.0"
+description = ""
+authors = ["psondej <patryk.sondej@grupawp.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+yaramod = "^3.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
